@@ -1,64 +1,96 @@
-# Customer Shopping Behavior Analysis
+# Pizza Sales Analysis Dashboard
 
 ## Overview
-This project analyzes customer shopping behavior using Python, MySQL, and Power BI. The objective was to uncover purchasing patterns, customer segments, product preferences, subscription behavior, and revenue trends to support data-driven business decisions.
 
-## Dataset
-- 3,900 customer purchase records
-- 18 features
-- Demographic, transactional, and behavioral data
-- 37 missing values handled during preprocessing
+This project analyzes pizza sales data using SQL and Power BI to uncover customer purchasing patterns, revenue trends, product performance, and operational insights. The goal was to transform raw transactional data into actionable business recommendations through data analysis and interactive visualizations.
+
+## Project Objectives
+
+- Analyze overall sales performance
+- Identify top and bottom-performing pizzas
+- Understand customer ordering behavior
+- Discover peak sales periods
+- Evaluate category and size-wise sales contribution
+- Create an interactive business dashboard
 
 ## Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib)
+
 - MySQL
 - Power BI
+- SQL
+- Data Visualization
 
-## Data Preparation
-- Data cleaning and preprocessing
-- Missing value imputation
-- Feature engineering
-- Column standardization
-- Database integration with MySQL
+## Key Performance Indicators (KPIs)
 
-## Key Analysis Performed
-- Revenue analysis by gender
-- Subscriber vs non-subscriber behavior
-- Customer segmentation (New, Returning, Loyal)
-- Product rating analysis
-- Shipping type comparison
-- Discount dependency analysis
-- Revenue by age group
-- Top-performing products and categories
+- Total Revenue
+- Average Order Value
+- Total Orders
+- Total Pizzas Sold
+- Average Pizzas per Order
+
+## Analysis Performed
+
+### Sales Trends
+- Daily order trends
+- Monthly order trends
+
+### Product Performance
+- Top 5 pizzas by revenue
+- Bottom 5 pizzas by revenue
+- Top 5 pizzas by quantity sold
+- Bottom 5 pizzas by quantity sold
+- Top 5 pizzas by number of orders
+- Bottom 5 pizzas by number of orders
+
+### Category Analysis
+- Percentage of sales by pizza category
+- Percentage of sales by pizza size
+- Total pizzas sold by category
 
 ## Key Insights
-- Male customers generated significantly higher revenue.
-- Non-subscribers contributed 73% of total revenue.
-- 80% of customers belonged to the loyal segment.
-- Express shipping users spent more on average.
-- Clothing was the highest-selling category.
-- Revenue distribution was relatively balanced across age groups.
+
+- Classic Deluxe Pizza received the highest number of orders.
+- Thai Chicken Pizza generated the highest revenue.
+- Friday and weekend sales were significantly higher than weekdays.
+- Large-sized pizzas contributed the most revenue.
+- The Classic category dominated both sales volume and revenue.
+- Certain pizzas consistently underperformed and may require menu optimization.
 
 ## Dashboard Features
-- Interactive Power BI dashboard
-- Subscription status filters
-- Gender-based analysis
-- Category performance tracking
-- Shipping type insights
-- Age group comparisons
+
+- Interactive Power BI Dashboard
+- Revenue Tracking
+- Product Performance Analysis
+- Sales Trend Monitoring
+- Category-wise Breakdown
+- Best & Worst Seller Analysis
 
 ## Business Recommendations
-1. Increase subscriber conversions.
-2. Strengthen loyalty programs.
-3. Optimize discount strategies.
-4. Promote top-rated products.
-5. Run targeted marketing campaigns.
 
-## Project Structure
-├── Data Cleaning & Preprocessing (Python)
-├── SQL Analysis (MySQL)
-├── Data Visualization (Power BI)
-└── Business Recommendations
+### Promote Best Sellers
+Focus marketing efforts on top-performing pizzas such as Classic Deluxe and Thai Chicken.
+
+### Weekend Campaigns
+Launch targeted promotions during Fridays and weekends to maximize peak demand.
+
+### Optimize Menu
+Review low-performing pizzas and improve or remove them based on customer demand.
+
+### Increase Average Order Value
+Encourage customers to purchase larger pizzas through combo deals and bundle offers.
+
+### Strengthen Category Marketing
+Leverage the popularity of the Classic category through loyalty programs and promotional campaigns.
+
+## Project Workflow
+
+1. Data Extraction using SQL
+2. KPI Calculation
+3. Trend & Performance Analysis
+4. Data Visualization in Power BI
+5. Business Insights & Recommendations
 
 ## Author
-Devank Verma
+
+**Devank Verma**
+Data Analytics | SQL | Power BI | Python
